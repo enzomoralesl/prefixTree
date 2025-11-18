@@ -3,7 +3,6 @@ import java.util.HashMap;
 public class Node {
 
     private final HashMap<Character, Node> children = new HashMap<>();
-    //    private char letter;
     private boolean isEndOfWord = false;
 
     public Node() {
